@@ -1,0 +1,25 @@
+#mainlogin{
+    background-image: url('./images/one11.jpg');
+    background-size: cover;
+    width: 95vw;
+    height: 95vh;
+
+}
+#loginform{
+    background-image: url('./images/one4.jpg');
+    background-size: cover;
+    box-shadow:1px 1px 30px whitesmoke ;
+
+}
+#loginlink{
+    color: rgb(249, 249, 252);
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#loginh2{
+color: white;
+text-transform: uppercase;
+}
+.loginl{
+  color: white;
+}

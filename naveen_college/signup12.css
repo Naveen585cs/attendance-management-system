@@ -1,0 +1,28 @@
+#mainsignup{
+    background-image: url('./images/one11.jpg');
+    background-size: cover;
+    width: 95vw;
+    height: 95vh;
+}
+#signupform{
+    background-image: url('./images/one4.jpg');
+    /* background-color: aqua; */
+    /* background: rgba(255, 255,255, 0.3); */
+    background-size: cover;
+    box-shadow:1px 1px 30px whitesmoke ;
+}
+#singuplink{
+    color: rgb(249, 249, 252);
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+#singuplink:hover{
+    color: rgb(30, 178, 223);
+}
+.signupl{
+  color: white;
+}
+#signuph2{
+color: white;
+}

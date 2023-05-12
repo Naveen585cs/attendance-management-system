@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    font-family:'Times New Roman', Times, serif;
+}
+#homemain{
+display: flex;
+flex-direction: column;
+background-image: url('./images/one12.jpg');
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+.homea{
+    /* background-color: rgb(61, 59, 54); */
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* background-image: url('./images/newimg.jpg'); */
+    background: repeating-linear-gradient(rgb(172, 89, 89),rgb(39, 36, 36));
+    background-size: cover;
+    box-shadow: 1px 1px 30px whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100vw;
+    /* gap: 5px; */
+}
+.homea a{
+    text-decoration: none;
+    margin-top: 5px;
+    /* background-color: blueviolet; */
+    color: rgb(4, 240, 240);
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-left: solid rgb(4, 240, 240) 1px;
+}
+.homea a:hover{
+    /* background-color: rgb(189, 154, 221); */
+    color: rgb(6, 240, 18);
+    border-top: solid blueviolet 2px;
+    border-bottom: solid blueviolet 2px;
+    transition: 0.1s 0s linear;
+    border-radius: 5px;
+    transform: scaleX(1.2);
+    border-right: solid blueviolet 1px;
+    border-left: solid blueviolet 1px;
+    box-shadow: 1px 1px 30px whitesmoke;
+}
+.homeparaall{
+width: 100vw;
+height: 90vh;
+display: flex;
+/* background-color: red; */
+flex-direction: row; 
+/* margin: 5px; */
+gap: 5px;
+align-items: center;
+justify-content: center;
+}
+#homeh11{
+text-align: center;
+margin-top: 10px;
+margin-left: 20px;
+text-transform: uppercase;
+color: rgb(4, 240, 240);
+}
+#homeh11:hover{
+    transform: scaleX(1.1);
+    transition: 0.6  ease-in-out;
+}
+#homeh12:hover{
+    transform: scaleX(1.1);
+    transition: 0.6  ease-in-out;
+}
+#homeh12{
+text-align: center;
+margin-top: 1rem;
+text-transform: capitalize;
+color: rgb(4, 240, 240);
+}
+#homeimgin{
+    background-image: url('./images/attendance_one.gif');
+    width: 35vw;
+    box-shadow: 1px 1px 30px whitesmoke;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 20px;
+}
+#homeimgin:hover{
+    transform: scaleX(1.1);
+    transition: 0.6  ease-in-out;
+}
+#moveh1{
+    color: rgb(4, 240, 240);
+    text-transform: capitalize;
+    opacity: 0.1;
+}
+/* #homeh{
+
+} */
+@media all and (max-width:700px){
+    .homeparaall{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        }
+        #homeimgin{
+            background-image: url('./images/attendance_one.gif');
+            width: 45vw;
+            background-size: cover;
+            height: 35vh;
+            border-radius: 20px;
+        }
+}
